@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamX — Movies, TV, Music, Sports & Live in One App</title>
+  <meta name="description" content="StreamX is a free streaming app for movies, TV shows, anime, music, sports, live events, and education — with offline downloads." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="logo">Stream<span class="accent">X</span></div>
+      <a href="#download" class="btn btn-primary nav-cta">Get the App</a>
+    </div>
+  </header>
+
+  <section class="hero" id="download">
+    <div class="hero-content">
+      <span class="eyebrow">Movies · TV · Anime · Music · Sports · Live · Education</span>
+      <h1>All your entertainment.<br />One app.</h1>
+      <p>Stream and download movies, series, music, live sports and more. Free to start, no clutter.</p>
+      <div id="smart-download" class="download-card">
+        <p class="detecting">Detecting your device…</p>
+      </div>
+    </div>
+    <div class="hero-mockups" aria-hidden="true">
+      <div class="phone phone-back">
+        <div class="phone-screen mockup-player"></div>
+      </div>
+      <div class="phone phone-front">
+        <div class="phone-screen mockup-home"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h2>Everything, organized.</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <span class="feature-icon">🎬</span>
+        <h3>Movies &amp; TV Shows</h3>
+        <p>New titles added regularly, in HD.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">⛩️</span>
+        <h3>Anime</h3>
+        <p>A growing library, subtitled.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">🎵</span>
+        <h3>Music</h3>
+        <p>Keeps playing while you browse.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">⚽</span>
+        <h3>Live Sports</h3>
+        <p>Fixtures, highlights, and live matches.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">📡</span>
+        <h3>Live Events</h3>
+        <p>Concerts, news, and more — streamed live.</p>
+      </div>
+      <div class="feature">
+        <span class="feature-icon">⬇️</span>
+        <h3>Offline Downloads</h3>
+        <p>Save titles and watch without data.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="preview">
+    <h2>See it in action</h2>
+    <div class="preview-grid">
+      <div class="phone">
+        <div class="phone-screen mockup-home"><span class="mockup-label">Home</span></div>
+      </div>
+      <div class="phone">
+        <div class="phone-screen mockup-details"><span class="mockup-label">Details</span></div>
+      </div>
+      <div class="phone">
+        <div class="phone-screen mockup-player"><span class="mockup-label">Player</span></div>
+      </div>
+    </div>
+    <p class="preview-note">Illustrative previews — install the app to see the real thing.</p>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <h2>Free to start</h2>
+    <div class="pricing-grid">
+      <div class="plan">
+        <h3>Free</h3>
+        <p class="price">TZS 0</p>
+        <ul>
+          <li>SD streaming, always free</li>
+          <li>Watch a short ad to unlock HD</li>
+          <li>Ad-supported</li>
+        </ul>
+      </div>
+      <div class="plan plan-highlight">
+        <h3>Streamer</h3>
+        <p class="price">Contact us</p>
+        <ul>
+          <li>No ads</li>
+          <li>Full HD streaming</li>
+          <li>Offline downloads</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <h3>Super Streamer</h3>
+        <p class="price">Contact us</p>
+        <ul>
+          <li>Everything in Streamer</li>
+          <li>4K where available</li>
+          <li>Multi-device login</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="telegram" id="community">
+    <h2>Get notified about new releases</h2>
+    <p>Join our Telegram channel for update alerts and new-title drops.</p>
+    <a id="telegram-btn" class="btn btn-secondary" href="#" target="_blank" rel="noopener">Join Telegram Channel</a>
+  </section>
+
+  <footer class="footer">
+    <div class="logo">Stream<span class="accent">X</span></div>
+    <p>&copy; <span id="year"></span> StreamX. All rights reserved.</p>
+  </footer>
+
+  <div id="ios-modal" class="modal hidden">
+    <div class="modal-card">
+      <h3>Install StreamX on iPhone</h3>
+      <ol>
+        <li>Tap the <strong>Share</strong> icon in Safari.</li>
+        <li>Scroll down and choose <strong>Add to Home Screen</strong>.</li>
+        <li>Tap <strong>Add</strong> — StreamX appears on your Home Screen like any other app.</li>
+      </ol>
+      <button id="ios-modal-close" class="btn btn-secondary">Got it</button>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
